@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy One Month ❤️</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+            scroll-behavior:smooth;
+        }
+
+        body{
+            background:#111;
+            color:white;
+            overflow-x:hidden;
+        }
+
+        body::before{
+            content:"";
+            position:fixed;
+            width:100%;
+            height:100%;
+            background:url("images/background.jpg") center/cover no-repeat;
+            filter:blur(8px) brightness(.25);
+            z-index:-2;
+        }
+
+        body::after{
+            content:"";
+            position:fixed;
+            width:100%;
+            height:100%;
+            background:rgba(0,0,0,.45);
+            z-index:-1;
+        }
+
+        nav{
+            position:fixed;
+            top:0;
+            width:100%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 8%;
+            backdrop-filter:blur(15px);
+            background:rgba(255,255,255,.05);
+            z-index:999;
+        }
+
+        nav h2{
+            color:#ff4d88;
+        }
+
+        nav ul{
+            display:flex;
+            list-style:none;
+            gap:25px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+        }
+
+        .hero{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:20px;
+        }
+
+        .card{
+            background:rgba(255,255,255,.08);
+            backdrop-filter:blur(15px);
+            padding:50px;
+            border-radius:25px;
+            max-width:700px;
+        }
+
+        .card img{
+            width:220px;
+            height:220px;
+            object-fit:cover;
+            border-radius:50%;
+            border:5px solid #ff4d88;
+            margin-bottom:20px;
+        }
+
+        h1{
+            font-family:"Great Vibes",cursive;
+            font-size:65px;
+            color:#ff4d88;
+        }
+
+        h3{
+            margin-top:10px;
+            font-weight:400;
+        }
+
+        p{
+            margin-top:20px;
+            line-height:30px;
+            color:#ddd;
+        }
+
+        button{
+            margin-top:30px;
+            padding:15px 35px;
+            border:none;
+            border-radius:30px;
+            background:#ff4d88;
+            color:white;
+            cursor:pointer;
+            font-size:16px;
+            transition:.3s;
+        }
+
+        button:hover{
+            transform:scale(1.05);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>❤️ Alid & Vina</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#timeline">Timeline</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#letter">Letter</a></li>
+</ul>
+
+</nav>
+
+<section class="hero" id="home">
+
+<div class="card">
+
+<img src="images/foto1.jpg" alt="Foto Kita">
+
+<h1>Happy One Month ❤️</h1>
+
+<h3>Untuk Orang Tersayang</h3>
+
+<p>
+Tidak terasa sudah satu bulan kita bersama.
+Terima kasih sudah menjadi bagian terindah dalam hidupku.
+Semoga perjalanan kita terus berlanjut hingga selamanya.
+</p>
+
+<button onclick="document.getElementById('timeline').scrollIntoView({behavior:'smooth'})">
+Mulai Perjalanan ❤️
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= TIMELINE ================= -->
+
+<style>
+
+.title{
+    text-align:center;
+    font-size:50px;
+    color:#ff4d88;
+    margin-bottom:60px;
+    font-family:"Great Vibes",cursive;
+}
+
+.timeline{
+    width:100%;
+    max-width:1100px;
+    margin:auto;
+    position:relative;
+    padding-bottom:80px;
+}
+
+.timeline::before{
+
+content:'';
+position:absolute;
+left:50%;
+top:0;
+width:4px;
+height:100%;
+background:#ff4d88;
+transform:translateX(-50%);
+
+}
+
+.item{
+
+display:flex;
+justify-content:flex-start;
+margin:60px 0;
+position:relative;
+
+}
+
+.item:nth-child(even){
+
+justify-content:flex-end;
+
+}
+
+.box{
+
+width:420px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(12px);
+padding:20px;
+border-radius:20px;
+box-shadow:0 0 20px rgba(255,0,100,.2);
+
+}
+
+.box img{
+
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+margin-bottom:15px;
+
+}
+
+.box h2{
+
+color:#ff5c93;
+margin-bottom:10px;
+
+}
+
+.box p{
+
+line-height:28px;
+
+}
+
+.dot{
+
+position:absolute;
+left:50%;
+width:22px;
+height:22px;
+background:#ff4d88;
+border-radius:50%;
+transform:translateX(-50%);
+margin-top:120px;
+box-shadow:0 0 15px #ff4d88;
+
+}
+
+</style>
+
+<section id="timeline">
+
+<h1 class="title">
+
+Perjalanan Kita ❤️
+
+</h1>
+
+<div class="timeline">
+
+<div class="item">
+
+<div class="dot"></div>
+
+<div class="box">
+
+<img src="images/foto2.jpg">
+
+<h2>Awal Bertemu</h2>
+
+<p>
+
+Semua berawal dari TIKTOK,
+Semua berawal daari basa-basi yang begitu nyaman.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="dot"></div>
+
+<div class="box">
+
+<img src="images/foto3.jpg">
+
+<h2>Masa PDKT</h2>
+
+<p>
+
+Hari dimana kita mulai pendekatan,
+Secara tidak sengaja kita memiliki perasaan yang sama.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="dot"></div>
+
+<div class="box">
+
+<img src="images/foto4.jpg">
+
+<h2>Hari Jadian</h2>
+
+<p>
+
+Tepat pada tanggal cantik seperti orang-nya,
+kami memutuskan untuk melanjutkan hubungan.
+
+❤️
+
+</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="dot"></div>
+
+<div class="box">
+
+<img src="images/foto5.jpg">
+
+<h2>Satu Bulan Bersama</h2>
+
+<p>
+
+Terima kasih sudah bertahan,
+terima kasih sudah mencintaiku.
+
+Semoga ini hanyalah awal
+dari perjalanan panjang kita.
+
+❤️
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= GALLERY ================= -->
+
+<style>
+
+.gallery{
+
+    padding:100px 8%;
+
+}
+
+.gallery h1{
+
+    text-align:center;
+    font-size:50px;
+    margin-bottom:50px;
+    color:#ff4d88;
+    font-family:"Great Vibes",cursive;
+
+}
+
+.grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+
+}
+
+.grid img{
+
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:20px;
+    cursor:pointer;
+    transition:.4s;
+    box-shadow:0 0 20px rgba(255,0,100,.2);
+
+}
+
+.grid img:hover{
+
+    transform:scale(1.05);
+
+}
+
+#preview{
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.95);
+    display:none;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+
+}
+
+#preview img{
+
+    width:80%;
+    max-width:700px;
+    border-radius:20px;
+
+}
+
+.close{
+
+    position:absolute;
+    top:30px;
+    right:40px;
+    font-size:45px;
+    color:white;
+    cursor:pointer;
+
+}
+
+</style>
+
+<section class="gallery" id="gallery">
+
+<h1>Gallery Kita ❤️</h1>
+
+<div class="grid">
+
+<img src="images/foto1.jpg" onclick="showImage(this.src)">
+<img src="images/foto2.jpg" onclick="showImage(this.src)">
+<img src="images/foto3.jpg" onclick="showImage(this.src)">
+<img src="images/foto4.jpg" onclick="showImage(this.src)">
+<img src="images/foto5.jpg" onclick="showImage(this.src)">
+<img src="images/foto6.jpg" onclick="showImage(this.src)">
+
+</div>
+
+</section>
+
+<div id="preview">
+
+<span class="close" onclick="closeImage()">&times;</span>
+
+<img id="preview-img">
+
+</div>
+
+<script>
+
+function showImage(src){
+
+document.getElementById("preview").style.display="flex";
+
+document.getElementById("preview-img").src=src;
+
+}
+
+function closeImage(){
+
+document.getElementById("preview").style.display="none";
+
+}
+
+</script>
+<!-- ================= LOVE LETTER ================= -->
+
+<style>
+
+.letter{
+
+padding:100px 10%;
+
+}
+
+.letter-box{
+
+max-width:900px;
+margin:auto;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+padding:45px;
+border-radius:25px;
+box-shadow:0 0 25px rgba(255,0,100,.2);
+
+}
+
+.letter-box h1{
+
+text-align:center;
+color:#ff4d88;
+font-family:"Great Vibes",cursive;
+font-size:55px;
+margin-bottom:30px;
+
+}
+
+.letter-box p{
+
+font-size:18px;
+line-height:35px;
+color:#eee;
+
+}
+
+.countdown{
+
+padding:100px 10%;
+text-align:center;
+
+}
+
+.countdown h1{
+
+font-family:"Great Vibes",cursive;
+font-size:55px;
+color:#ff4d88;
+margin-bottom:40px;
+
+}
+
+.timer{
+
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+.time-box{
+
+width:140px;
+padding:25px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+border-radius:20px;
+
+}
+
+.time-box h2{
+
+font-size:45px;
+color:#ff4d88;
+
+}
+
+.time-box p{
+
+margin-top:10px;
+
+}
+
+</style>
+
+<section class="letter" id="letter">
+
+<div class="letter-box">
+
+<h1>💌 Surat Untukmu</h1>
+
+<p>
+
+Happy One Month Sayang ❤️
+
+Tidak terasa perjalanan kita sudah berjalan selama satu bulan.
+
+Mungkin memang belum lama,
+tetapi setiap hari bersamamu selalu menjadi hari yang ingin aku ulang.
+
+Terima kasih sudah hadir,
+terima kasih sudah bertahan,
+terima kasih sudah menerima segala kurangku.
+
+Aku berharap ini bukan hanya satu bulan,
+melainkan awal dari cerita yang akan terus kita tulis bersama.
+
+Aku sayang kamu hari ini,
+besok,
+dan seterusnya.
+
+❤️
+
+</p>
+
+</div>
+
+</section>
+
+<section class="countdown">
+
+<h1>Sudah Bersama Selama</h1>
+
+<div class="timer">
+
+<div class="time-box">
+<h2 id="day">0</h2>
+<p>Hari</p>
+</div>
+
+<div class="time-box">
+<h2 id="hour">0</h2>
+<p>Jam</p>
+</div>
+
+<div class="time-box">
+<h2 id="minute">0</h2>
+<p>Menit</p>
+</div>
+
+<div class="time-box">
+<h2 id="second">0</h2>
+<p>Detik</p>
+</div>
+
+</div>
+
+</section>
+
+<script>
+
+const startDate = new Date("2026-06-06 00:00:00").getTime();
+
+setInterval(function(){
+
+let now = new Date().getTime();
+
+let distance = now - startDate;
+
+let day = Math.floor(distance/(1000*60*60*24));
+
+let hour = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+
+let minute = Math.floor((distance%(1000*60*60))/(1000*60));
+
+let second = Math.floor((distance%(1000*60))/1000);
+
+document.getElementById("day").innerHTML=day;
+document.getElementById("hour").innerHTML=hour;
+document.getElementById("minute").innerHTML=minute;
+document.getElementById("second").innerHTML=second;
+
+},1000);
+
+</script>
+<!-- ================= FLOATING HEART ================= -->
+
+<style>
+
+.heart{
+
+position:fixed;
+bottom:-30px;
+font-size:25px;
+color:#ff4d88;
+animation:heartMove linear forwards;
+pointer-events:none;
+z-index:999;
+
+}
+
+@keyframes heartMove{
+
+0%{
+
+transform:translateY(0) scale(1);
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-120vh) scale(2);
+opacity:0;
+
+}
+
+}
+
+/* MUSIC BUTTON */
+
+.music{
+
+position:fixed;
+right:25px;
+bottom:25px;
+
+width:65px;
+height:65px;
+
+border-radius:50%;
+border:none;
+
+font-size:25px;
+
+background:#ff4d88;
+color:white;
+
+cursor:pointer;
+
+box-shadow:0 0 20px rgba(255,0,100,.5);
+
+z-index:999;
+
+transition:.4s;
+
+}
+
+.music:hover{
+
+transform:scale(1.1);
+
+}
+
+/* FOOTER */
+
+footer{
+
+padding:70px 20px;
+text-align:center;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(10px);
+
+margin-top:100px;
+
+}
+
+footer h2{
+
+font-family:"Great Vibes",cursive;
+font-size:45px;
+color:#ff4d88;
+
+margin-bottom:15px;
+
+}
+
+footer p{
+
+color:#ddd;
+
+}
+
+</style>
+
+<!-- ================= SPOTIFY ================= -->
+
+<style>
+
+.spotify-section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.spotify-section h1{
+    color:#ff4d88;
+    font-size:50px;
+    margin-bottom:15px;
+    font-family:"Great Vibes", cursive;
+}
+
+.spotify-section p{
+    color:#ddd;
+    margin-bottom:30px;
+}
+
+.spotify-card{
+    max-width:650px;
+    margin:auto;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    border-radius:25px;
+    padding:20px;
+    box-shadow:0 0 25px rgba(255,0,120,.25);
+}
+
+.spotify-card iframe{
+    border-radius:20px;
+}
+
+</style>
+
+<section class="spotify-section">
+
+<h1>🎵 Lagu Kita</h1>
+
+<p>
+Lagu yang selalu mengingatkanku padamu sayang ❤️
+</p>
+
+<div class="spotify-card">
+
+<iframe
+data-testid="embed-iframe"
+style="border-radius:20px"
+src="https://open.spotify.com/embed/track/6v5RJuJ9yhvaXkMXMeMZBw?utm_source=generator"
+width="100%"
+height="352"
+frameBorder="0"
+allowfullscreen=""
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+loading="lazy">
+</iframe>
+
+</div>
+
+</section>
+<footer>
+
+<h2>
+
+Forever With You ❤️
+
+</h2>
+
+<p>
+
+Happy One Month My Love
+
+<br><br>
+
+Terima kasih sudah menjadi rumah bagiku.
+
+Semoga kita selalu bersama.
+
+❤️
+
+</p>
+
+</footer>
+
+<script>
+
+function openSpotify(){
+
+window.open(
+"https://open.spotify.com/track/ID_LAGU",
+"_blank"
+);
+
+}
+
+// Floating Heart
+
+setInterval(function(){
+
+let heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.animationDuration=(4+Math.random()*4)+"s";
+
+heart.style.fontSize=(20+Math.random()*30)+"px";
+
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+
+heart.remove();
+
+},8000);
+
+},400);
+
+</script>
+<!-- ================= PREMIUM EFFECT ================= -->
+
+<style>
+
+.fade{
+    opacity:0;
+    transform:translateY(70px);
+    transition:1s;
+}
+
+.fade.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Tombol Love */
+
+#loveBtn{
+
+display:block;
+margin:70px auto;
+
+padding:18px 40px;
+
+border:none;
+border-radius:40px;
+
+background:#ff4d88;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+#loveBtn:hover{
+
+transform:scale(1.08);
+
+}
+
+.reason{
+
+max-width:700px;
+
+margin:auto;
+
+margin-top:30px;
+
+text-align:center;
+
+font-size:24px;
+
+line-height:40px;
+
+color:#ffd6e5;
+
+padding:20px;
+
+}
+
+canvas{
+
+position:fixed;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+z-index:9999;
+
+}
+
+</style>
+
+<section class="fade">
+
+<h1 class="title">
+
+100 Alasan Aku Sayang Kamu ❤️
+
+</h1>
+
+<button id="loveBtn">
+
+Klik Aku ❤️
+
+</button>
+
+<div class="reason" id="reason">
+
+❤️
+
+</div>
+
+</section>
+
+<canvas id="confetti"></canvas>
+
+<script>
+
+const alasan=[
+
+"Karena senyummu selalu membuat hariku lebih indah.",
+
+"Karena kamu selalu mendengarkan ceritaku.",
+
+"Karena kamu selalu sabar menghadapi aku.",
+
+"Karena kamu membuatku merasa dicintai.",
+
+"Karena kamu adalah rumah bagiku.",
+
+"Karena tawamu membuatku tenang.",
+
+"Karena kamu selalu ada.",
+
+"Karena bersamamu semuanya terasa mudah.",
+
+"Karena aku nyaman menjadi diriku sendiri.",
+
+"Karena aku selalu memilihmu."
+
+];
+
+document.getElementById("loveBtn").onclick=function(){
+
+let random=Math.floor(Math.random()*alasan.length);
+
+document.getElementById("reason").innerHTML=alasan[random];
+
+confetti();
+
+}
+
+// Fade Animation
+
+const fade=document.querySelectorAll(".fade");
+
+window.addEventListener("scroll",()=>{
+
+fade.forEach(el=>{
+
+const top=el.getBoundingClientRect().top;
+
+if(top<window.innerHeight-120){
+
+el.classList.add("show");
+
+}
+
+})
+
+})
+
+// CONFETTI
+
+const canvas=document.getElementById("confetti");
+
+const ctx=canvas.getContext("2d");
+
+canvas.width=window.innerWidth;
+
+canvas.height=window.innerHeight;
+
+function confetti(){
+
+let pieces=[];
+
+for(let i=0;i<180;i++){
+
+pieces.push({
+
+x:Math.random()*canvas.width,
+
+y:-20,
+
+size:5+Math.random()*8,
+
+speed:2+Math.random()*4,
+
+angle:Math.random()*360
+
+});
+
+}
+
+let anim=setInterval(()=>{
+
+ctx.clearRect(0,0,canvas.width,canvas.height);
+
+pieces.forEach(p=>{
+
+ctx.fillStyle=`hsl(${Math.random()*360},100%,70%)`;
+
+ctx.fillRect(p.x,p.y,p.size,p.size);
+
+p.y+=p.speed;
+
+});
+
+pieces=pieces.filter(p=>p.y<canvas.height);
+
+if(pieces.length==0){
+
+clearInterval(anim);
+
+ctx.clearRect(0,0,canvas.width,canvas.height);
+
+}
+
+},20);
+
+}
+
+</script>
+<!-- ================= FINAL PREMIUM ================= -->
+
+<style>
+
+/* LOADING */
+
+#loadingScreen{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:#050505;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+z-index:999999;
+transition:1s;
+}
+
+.loaderHeart{
+
+font-size:80px;
+animation:beat .8s infinite;
+
+}
+
+@keyframes beat{
+
+50%{
+transform:scale(1.2);
+}
+
+}
+
+#loadingScreen h2{
+
+margin-top:20px;
+font-weight:400;
+letter-spacing:2px;
+
+}
+
+/* STAR */
+
+.star{
+
+position:fixed;
+
+width:3px;
+height:3px;
+
+background:white;
+
+border-radius:50%;
+
+animation:twinkle 2s infinite;
+
+pointer-events:none;
+
+}
+
+@keyframes twinkle{
+
+50%{
+
+opacity:.2;
+transform:scale(.3);
+
+}
+
+}
+
+/* POPUP */
+
+.popup{
+
+position:fixed;
+
+top:50%;
+
+left:50%;
+
+transform:translate(-50%,-50%) scale(0);
+
+background:white;
+
+color:#111;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+z-index:99999;
+
+transition:.4s;
+
+max-width:420px;
+
+}
+
+.popup.active{
+
+transform:translate(-50%,-50%) scale(1);
+
+}
+
+.popup h2{
+
+color:#ff4d88;
+
+margin-bottom:15px;
+
+}
+
+.popup button{
+
+margin-top:20px;
+
+padding:12px 30px;
+
+border:none;
+
+background:#ff4d88;
+
+color:white;
+
+border-radius:30px;
+
+cursor:pointer;
+
+}
+
+/* CURSOR */
+
+.cursor{
+
+position:fixed;
+
+width:20px;
+
+height:20px;
+
+border:2px solid #ff4d88;
+
+border-radius:50%;
+
+pointer-events:none;
+
+transform:translate(-50%,-50%);
+
+transition:.08s;
+
+z-index:999999;
+
+}
+
+</style>
+
+<div id="loadingScreen">
+
+<div class="loaderHeart">
+
+❤️
+
+</div>
+
+<h2>
+
+Loading Our Memories...
+
+</h2>
+
+</div>
+
+<div class="popup" id="popup">
+
+<h2>
+
+Happy One Month ❤️
+
+</h2>
+
+<p>
+
+Terima kasih sudah menjadi bagian terbaik dalam hidupku.
+
+Semoga perjalanan kita selalu dipenuhi kebahagiaan.
+
+Aku Sayang Kamu ❤️
+
+</p>
+
+<button onclick="closePopup()">
+
+I Love You
+
+</button>
+
+</div>
+
+<div class="cursor"></div>
+
+<script>
+
+// Loading
+
+window.onload=function(){
+
+setTimeout(function(){
+
+document.getElementById("loadingScreen").style.opacity="0";
+
+setTimeout(function(){
+
+document.getElementById("loadingScreen").style.display="none";
+
+document.getElementById("popup").classList.add("active");
+
+},900);
+
+},1800);
+
+}
+
+// Popup
+
+function closePopup(){
+
+document.getElementById("popup").classList.remove("active");
+
+}
+
+// Cursor
+
+const cursor=document.querySelector(".cursor");
+
+document.addEventListener("mousemove",e=>{
+
+cursor.style.left=e.clientX+"px";
+
+cursor.style.top=e.clientY+"px";
+
+});
+
+// Stars
+
+for(let i=0;i<180;i++){
+
+let star=document.createElement("div");
+
+star.className="star";
+
+star.style.left=Math.random()*100+"vw";
+
+star.style.top=Math.random()*100+"vh";
+
+star.style.animationDelay=Math.random()*2+"s";
+
+document.body.appendChild(star);
+
+}
+
+</script>
+</body>
+</html>
